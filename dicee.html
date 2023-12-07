@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee Game</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="">Refresh Me</h1>
+      <h3>You can also use Space Bar to refresh</h3>
+      <div class="dice">
+        <p>Player 1</p>
+        <img
+          class="img1 animate__animated animate__flipInX"
+          src="./images/dice6.png"
+        />
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img
+          class="img2 animate__animated animate__flipInY"
+          src="./images/dice6.png"
+        />
+      </div>
+    </div>
+    <h2 id="resultMessage" class="animate__animated animate__lightSpeedInLeft">
+      Result
+    </h2>
+  </body>
+
+  <script src="./index.js"></script>
+  <script>
+    var resultMessage = document.getElementById("resultMessage");
+    resultMessage.style.display = "block"; // Show the h2 element
+  </script>
+</html>
