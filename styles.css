@@ -51,9 +51,7 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
-#resultMessage {
-  display: none;
-}
+
 /* @keyframes rollAnimation {
   0% {
     transform: rotate(0deg);
